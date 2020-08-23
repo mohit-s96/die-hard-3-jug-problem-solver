@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Bucket Problem</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="heading-container">
+                <h3 class="heading">2 Bucket Problem Solver</h3>
+            </div>
+            <div class="info">
+                <p class= "statement">
+                    <span class="problem"><b>Problem Statement : </b></span>
+                    Suppose you have a <b>"p"</b> liter bucket and a <b>"q"</b> liter bucket. There is no other conatainer and neither do the buckets have measurement lines on them. How could you measure exactly <b>"r"</b> liters using only those buckets and you have as much extra water as you need ?
+                </p><br>
+                <p class="rules">
+                    <span class="problem">Rule 1 : </span>p > q <br>
+                    <span class="problem">Rule 2 : </span>p > r <br>
+                    <span class="problem">Rule 3 : </span>r <b>mod</b> gcd(p, q) = 0
+
+                </p>
+            </div>
+            <div class="form-wrapper">
+                <form action="#" id="form">
+                    <input type="number" placeholder="Bigger bucket" class="register">
+                    <input type="number" placeholder="Smaller bucket" class="register">
+                    <input type="number" placeholder="Volume to calculate" class="register">
+                    <input type="submit" value="Submit" class="btn btn-lg">
+                </form>
+                <i>Illustrations are not indicative of actual size of conatiners but the rather represent the percentage difference</i>
+            </div>
+            <div class="inner-wrapper">
+                <ul class="solutions">
+                    <!-- <li class="solution-list">
+                        <span class="step">Step 1</span>
+                        <div class="imagep"><span class="test">HI</span> <div class="water"></div></div>
+                        <div class="imageq"><span class="test">HI</span> <div class="waters"></div></div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/math.js"></script>
+    <script src="/app.js"></script>
+    <script src="/ui.js"></script>
+    <script src="/test.js"></script>
+    
+</body>
+</html>
