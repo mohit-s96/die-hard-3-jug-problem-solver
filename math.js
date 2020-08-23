@@ -67,8 +67,6 @@ function largerToSmaller(x, y, r){
     } 
    }
 }
-// bucketSolver(5, 3, 4);
-// console.log('Number of Iterations :',count);
 
 //----------------------------------------------------------------
 
@@ -132,5 +130,4 @@ function smallerToLarger(x, y, r){
         }
     }
 }
-// solve(11, 7, 6);
-// console.log('Number of Iterations :',count);
+    
