@@ -10,4 +10,3 @@ Rule 3 : r mod gcd(p, q) = 0
 
 
 ![GitHub Logo](/img/screenshot.jpg)
-Format: ![Alt Text]
