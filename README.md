@@ -7,3 +7,7 @@ Rule 2 : p > r
 Rule 3 : r mod gcd(p, q) = 0
 
 [NOTE : The rule enforcing is done by the program so you don't have to calculate it yourself :) ]
+
+
+![GitHub Logo](/img/screenshot.jpg)
+Format: ![Alt Text]
